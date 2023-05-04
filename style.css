@@ -90,7 +90,7 @@ nav>button:hover {
   display: flex;
   align-self: center;
   justify-content: space-around;
-  gap: 60%;
+  gap: 50%;
 }
 
 
