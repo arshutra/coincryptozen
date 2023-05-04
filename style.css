@@ -14,9 +14,9 @@
 
 
 
-::-webkit-scrollbar{
+/* ::-webkit-scrollbar{
   background: #080a3b;
-}
+} */
 
 /* navbar */
 
@@ -173,11 +173,11 @@ html{
   scroll-behavior: smooth;
   scroll-padding-top: 40px;
 }
-
+/* 
 body {
   overflow-x: hidden;
 }
-
+ */
 /* homepage */
 
 .heropage {
