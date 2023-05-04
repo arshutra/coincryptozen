@@ -2106,6 +2106,10 @@ body {
     font-size: 10px;
   }
 
+  
+  body{
+    overflow-x:hidden;
+  }
 
 
 
