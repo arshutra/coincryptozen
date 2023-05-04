@@ -27,7 +27,6 @@ nav {
   position: fixed;
   left: 0;
   top: 0;
-  z-index: 88;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -86,6 +85,7 @@ nav>button:hover {
 }
 
 .ham_look{
+  width:100vw;
   background: #001047;
   display: flex;
   align-self: center;
@@ -173,11 +173,11 @@ html{
   scroll-behavior: smooth;
   scroll-padding-top: 40px;
 }
-/* 
+
 body {
   overflow-x: hidden;
 }
- */
+
 /* homepage */
 
 .heropage {
@@ -1424,6 +1424,9 @@ footer div button {
 
 
 /* ham media querry */
+body {
+  overflow-x: hidden;
+}
 
 @media all and (max-width:1196px) {
   .nav{
@@ -1518,6 +1521,9 @@ footer div button {
 
 @media all and (max-width:1023px) {
 
+  body {
+  overflow-x: hidden;
+}
 
 
   /* heropage */
