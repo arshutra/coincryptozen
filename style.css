@@ -15,7 +15,7 @@
 
 
 ::-webkit-scrollbar{
-  background: #080a3b;
+ display:none;
 }
 
 /* navbar */
@@ -90,7 +90,7 @@ nav>button:hover {
   display: flex;
   align-self: center;
   justify-content: space-around;
-  gap: 50%;
+  gap: 40%;
 }
 
 
