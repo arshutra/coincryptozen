@@ -21,6 +21,7 @@
 /* navbar */
 
 nav {
+  z-index:1234567789;
   background: #080a3bf8;
   width: 100vw;
   height: 100px;
