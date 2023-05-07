@@ -1426,6 +1426,7 @@ footer div button {
 
 
 
+
 @media all and (max-width:1196px) {
   .nav{
     display: none;
@@ -1502,10 +1503,6 @@ footer div button {
     width: 90%;
   }
 
-  footer{
-    padding: 10px;
-  }
-
   .heading{
     font-size: 20px;
   }
@@ -1519,12 +1516,17 @@ footer div button {
 
 @media all and (max-width:1023px) {
 
+  /* body {
+  overflow-x: hidden;
+} */
+
 
   /* heropage */
 
   .heropage {
     flex-wrap: wrap;
     width: 100vw;
+    /* padding: 20px; */   /* updated */
   }
 
   .main-coin {
@@ -1569,7 +1571,7 @@ footer div button {
   }
 
   .phn {
-    width: 300px;
+    width: 280px;
   }
 
   .frame_2 div h3 {
@@ -1622,7 +1624,8 @@ footer div button {
 
 
   .book div img {
-    width: 350px;
+    /* width: 350px; */
+    width: 100%;
   }
 
   .book div h3 {
@@ -1652,22 +1655,14 @@ footer div button {
 
   }
 
-  .team {
-    flex-wrap: wrap;
-  }
-
   /* .frame_8 */
-
-  .frame_8 {
-    padding: 100px;
-  }
 
   .menu {
     width: 45%;
   }
 
   .frame_8 div img {
-    width: 400px;
+    width: 100%;
   }
 
 
@@ -1683,10 +1678,6 @@ footer div button {
 
   /* footer */
 
-/*   footer {
-    gap: 10px;
-  } */
-
   footer div {
     width: 210px;
 
@@ -1701,11 +1692,6 @@ footer div button {
   footer div button {
     padding: 10px;
   }
-
-/*   .footer_after {
-    height: 50px;
-    gap: 29%;
-  } */
 
 }
 
@@ -1820,11 +1806,6 @@ footer div button {
 
   /* footer */
 
-/*   footer {
-    gap: 10px;
-    padding: 10px;
-  } */
-
   footer div {
     width: 200px;
 
@@ -1832,12 +1813,8 @@ footer div button {
 
 
 
-/* 
 
-  .footer_after {
-    height: 70px;
-    gap: 20%;
-  } */
+
 
 }
 
@@ -1860,8 +1837,8 @@ footer div button {
     width: 400px;
   }
 
-/*   .main_img {
-    width: 450px;
+  /* .main_img {
+    width: 400px;
   } */
 
   .main-coin {
@@ -1920,7 +1897,7 @@ footer div button {
   }
 
   .frame_2 div {
-    width: 120%;
+    width: 100%;
   }
 
   .frame_4 div h1 {
@@ -1928,16 +1905,17 @@ footer div button {
   }
 
   .circle {
-    width: 400px;
+    width: 100%;
   }
 
   .piechart-1 {
-    top: 30%;
+    top: 33%;
+    left: 34%;
   }
 
   .piechart-2 {
-    left: 33%;
-    top: 28%;
+    left: 29%;
+    top: 30%;
   }
 
 
@@ -1946,7 +1924,7 @@ footer div button {
   /* book */
 
   .book {
-    width: 150%;
+    width: 100%;
   }
 
 
@@ -1955,14 +1933,14 @@ footer div button {
 
 
   .menu {
-    width: 150%;
+    width: 100%;
   }
 
   /* .frame_9 */
 
   .form {
-    width: 190%;
-    margin: 10px;
+    width: 100%;
+    padding: 10px 27px;
   }
 
   .visit {
@@ -1970,12 +1948,6 @@ footer div button {
   }
 
   /* footer */
-
-
-  footer {
-    flex-wrap: wrap;
-    height: 850px;
-  }
 
   footer svg {
     display: none;
@@ -1991,18 +1963,26 @@ footer div button {
     -o-border-radius: 30px;
   }
 
-  .footer_after {
-    height: 100px;
-    gap: 5%;
-  }
   
-  .social_icons {
+
+
+  footer div {
+    width: 240px;
+    text-align: center;
+}
+.social_icons {
   justify-content: center;
 }
 
 .chart {
   padding: 35px 0px;
 }
+/* .left {
+  width: 100%;
+} */
+
+
+
 
 }
 
@@ -2014,10 +1994,10 @@ footer div button {
 
 
   .heropage div {
-    width: 350px;
+    width: 300px;
   }
 
-/*   .main_img {
+  /* .main_img {
     width: 350px;
   } */
 
@@ -2042,8 +2022,7 @@ footer div button {
 
 
   .container_1 {
-    height: 600px;
-    width: 100%;
+    height: auto;
   }
 
   .blue-box {
@@ -2073,7 +2052,7 @@ footer div button {
   }
 
   .circle {
-    width: 350px;
+    width: 250px;
   }
 
   .piechart-2 {
@@ -2083,21 +2062,21 @@ footer div button {
 
 
   .book{
-    width: 190%;
+    width: 100%;
   }
 
   .book div img{
-    width: 300px;
+    width: 240px;
   }
   
 
   .menu {
-    width: 170%;
+    width: 100%;
   }
 
   footer {
-    height: 850px;
     background: #062562;
+    padding: 0;
   }
 
   .footer_after div p{
@@ -2106,6 +2085,11 @@ footer div button {
   .footer_after div ul li a{
     font-size: 10px;
   }
+
+  
+  /* body{
+    overflow-x:hidden;
+  } */
 
   .left {
     width: 100%;
@@ -2120,11 +2104,12 @@ footer div button {
 
 
 }
-
+.testing{
+  background-color: black;
+  height: 50px;
+  width: 100%;
+}
 .frame_2 {
   padding: 90px 15px;
 }
 
-
-
-}
