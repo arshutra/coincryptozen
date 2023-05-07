@@ -1428,6 +1428,8 @@ footer div button {
 
 
 @media all and (max-width:1196px) {
+  body{
+    width:100%;}
   .nav{
     display: none;
   }
